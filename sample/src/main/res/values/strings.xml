@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app.name">Floor Plan</string>
+
+    <string name="main.title">Intern Task-Floor Plan marker</string>
+
+
+    <string name="button.next">Next</string>
+    <string name="button.previous">Previous</string>
+    <string name="button.rotate">Rotate</string>
+    <string name="button.reset">Reset</string>
+
+    <string name="basic.link">Basic features</string>
+    <string name="basic.title">Basic features</string>
+    <string name="basic.p1.subtitle">Pinch to zoom</string>
+    <string name="basic.p1.text">
+        Use a two finger pinch to zoom in and out. The zoom is centred on the pinch gesture, and you can pan at the same time.
+    </string>
+    <string name="basic.p2.subtitle">Quick scale</string>
+    <string name="basic.p2.text">
+        Double tap and swipe up or down to zoom in or out. The zoom is centred where you tapped.
+    </string>
+    <string name="basic.p3.subtitle">Drag</string>
+    <string name="basic.p3.text">Use one finger to drag the image around.</string>
+    <string name="basic.p4.subtitle">Fling</string>
+    <string name="basic.p4.text">
+        If you drag quickly and let go, fling momentum keeps the image moving.
+    </string>
+    <string name="basic.p5.subtitle">Double tap</string>
+    <string name="basic.p5.text">
+        Double tap the image to zoom in to that spot. Double tap again to zoom out.
+    </string>
+
+    <string name="floorplan2.link">Floor Plan 2</string>
+    <string name="floorplan2.title">Floor Plan 2</string>
+    <string name="advancedevent.p1.subtitle">Overriding gestures</string>
+    <string name="advancedevent.p1.text">Some gestures can be overridden with your own
+        GestureDetector without affecting the image view. This allows you to get the coordinates of
+        the event.
+    </string>
+    <string name="advancedevent.p2.subtitle">onSingleTapConfirmed</string>
+    <string name="advancedevent.p2.text">onSingleTapConfirmed has been overridden. Tap the image to
+        see coordinates.
+    </string>
+    <string name="advancedevent.p3.subtitle">onDoubleTap</string>
+    <string name="advancedevent.p3.text">onDoubleTap has been overridden. Tap the image to see
+        coordinates. This overrides the default zoom in behaviour.
+    </string>
+    <string name="advancedevent.p4.subtitle">onLongPress</string>
+    <string name="advancedevent.p4.text">onLongPress has been overridden. Press and hold the image
+        to see coordinates.
+    </string>
+    <string name="advancedevent.p5.subtitle">Other events</string>
+    <string name="advancedevent.p5.text">You can override any event you want, but customising swipe,
+        fling and zoom gestures will stop the view working normally.
+    </string>
+
+
+    <string name="floorplan1.link">Floor Plan 1</string>
+    <string name="floorplan1.title">Floor Plan 1</string>
+    <string name="extension.p1.subtitle">Location pin</string>
+    <string name="extension.p1.text">
+        This view class extends the image view, and adds a pin anchored to a point on the image.
+    </string>
+
+
+</resources>

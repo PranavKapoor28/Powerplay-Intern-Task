@@ -1,0 +1,7 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/fill">
+
+
+    <com.davemorrissey.labs.subscaleview.test.FloorPlan.views.PinView
+        style="@style/mainPanel" android:id="@+id/imageView"/>
+
+</RelativeLayout>
